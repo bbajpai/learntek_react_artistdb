@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    background: #D1D5D9;
+}
+
+
+/****** banner Style ******/
+
+.banner .main_cover{
+    background:url('../images/cover.png');
+    height:400px;
+    background-size:cover;
+    background-position: center center;
+    position: relative;
+}
+
+.banner .logo{
+    position: absolute;
+    top:50%;
+    width:100%;
+    height: 65px;
+    color: #fff;
+    font-size:45px;
+    text-align: center;
+}
+
+.banner span{
+    display: block;
+    height: 20px;
+    background: #136BB9;
+}
+
+
+/***** Artist List *******/
+
+.artists_list{
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+
+.artists_list .artist_item{
+    display: block;
+    height:200px;
+    background-size: cover !important;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.artists_list .artist_item div{
+    background: #136BB9;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    right:0;
+    padding:10px;
+}
+
+
+/************ Header **************/
+
+header{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 38px;
+    color: grey;
+    border-bottom: solid 3px #136BB9;
+}
+
+header a {
+    text-decoration: none;
+    color:gray;
+}
+
+
+/******* Artist Bio ********/
+
+.artist_bio{
+    box-sizing:border-box;
+    padding: 10px 30px;
+}
+
+.artist_bio .avatar span{
+    width:150px;
+    height:150px;
+    display: block;
+    margin: 0 auto;
+    background-size:cover !important;
+}
+
+.artist_bio h3{
+    font-weight: 300;
+    text-align: center;
+    font-size:32px;
+    margin: 10px 0;
+}
