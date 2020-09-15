@@ -93,3 +93,18 @@ header a {
     font-size:32px;
     margin: 10px 0;
 }
+
+.album_list{
+    margin: 20px;
+}
+
+.conatiner h2{
+    text-align: center;
+    color:rgb(12, 81, 138);
+}
+
+.album_list:after{
+    clear: both;
+    display: table;
+    content: ""
+}
